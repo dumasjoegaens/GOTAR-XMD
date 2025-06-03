@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "  https://github.com/dumasjoegaens/GOTAR-XMD.git
+SESSION_ID: process.env.SESSION_ID || " https://github.com/gotartech/GOTAR-XMD ",
     ",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
